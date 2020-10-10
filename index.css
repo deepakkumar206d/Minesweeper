@@ -1,0 +1,26 @@
+
+.gameBoard {
+    padding: 0px;
+    border: 1px solid black;
+}
+
+input[type='button'].square {
+    padding: 10px;
+    width: 35px;
+    height: 35px;
+    float: left;
+}
+
+#restartGame {
+    margin: 28px 76px;
+    padding: 6px;
+    background: grey;
+    color: greenyellow;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+input[type='button'].square:active, input[type='button'].square.active {
+    background: lightgrey;
+    border: 2px solid lightgrey;
+}
